@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00008b;
+    background: url('../Images/Download.svg') center/cover fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  form {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 375px;
+    margin: 0 auto;
+
+    h2 {
+      text-align: center;
+      font-size: 25px;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+    }
+  
+    label {
+      display: block;
+      margin: 10px 2px;
+      text-align: left;
+    }
+  
+    input[type="text"],
+    input[type="password"] {
+      padding: 10px;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin: 0;
+    }
+  
+    input[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .remember-forgot-links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      label {
+        display: flex;
+        align-items: center;
+      }
+
+      label input[type="checkbox"] {
+        margin-right: 5px;
+      }
+  
+      a {
+        text-decoration: none;
+        color: #007bff;
+        font-weight: 500;
+      }
+    }
+  
+    .register-link {
+      text-align: center;
+      margin-top: 20px;
+  
+      a {
+        text-decoration: none;
+        color: #007bff;
+        font-weight: 500;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
+  

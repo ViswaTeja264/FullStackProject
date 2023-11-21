@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../SCSS/MyProfile.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <div class="profile-card">
+                <img src="../Images/Viswa.svg" alt="Photo">
+                <h3>Viswa Teja</h3>
+                <p class="role">Software Developer In Guvi, Chennai</p>
+                <div class="bio-icons">
+                    <p> 
+                        Enthusiastic software developer and recent graduate, eager to leverage academic
+                        achievements in real-world coding challenges. Proficient in key programming
+                        languages and committed to learning and adapting to new technologies. 
+                        A detail-oriented problem solver with a passion for creating clean and efficient
+                        code. Excited to contribute to innovative projects and collaborate within a 
+                        dynamic team environment.
+                    </p>
+                
+                    <!-- Social media icons -->
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/viswateja264/" class="icon-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/ViswaTeja264" class="icon-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/theviswavibes/" class="icon-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/Viswateja209/" class="icon-link"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="profile-data" id="profileData">
+                <h2>Account Details</h2>
+                <div class="details">
+                    <div class="detail">
+                        <span class="label">First Name</span>
+                        <span class="value" id="firstName">ViswaTeja</span>
+                        <div class="input-group">
+                            <input type="text" class="form-control" value="Viswa">
+                        </div>
+                    </div>
+
+                    <div class="detail">
+                        <span class="label">Last Name</span>
+                        <span class="value" id="lastName">Andra</span>
+                        <div class="input-group">
+                            <input type="text" class="form-control" value="Teja">
+                        </div>
+                    </div>
+
+                    <div class="detail">
+                        <span class="label">Email</span>
+                        <span class="value">viswa@guvi.in</span>
+                        <div class="input-group">
+                            <input type="email" class="form-control" value="example@email.com">
+                        </div>
+                    </div>
+
+                    <div class="detail">
+                        <span class="label">Phone Number</span>
+                        <span class="value">938-100-4884</span>
+                        <div class="input-group">
+                            <input type="tel" class="form-control" value="123-456-7890">
+                        </div>
+                    </div>
+
+                    <div class="detail">
+                        <span class="label">Company</span>
+                        <span class="value">GUVI</span>
+                        <div class="input-group">
+                            <input type="text" class="form-control" value="ABC Corporation">
+                        </div>
+                    </div>
+
+                    <div class="detail">
+                        <span class="label">Designation</span>
+                        <span class="value">SDET</span>
+                        <div class="input-group">
+                            <input type="text" class="form-control" value="Software Developer">
+                        </div>
+                    </div>
+
+                    <div class="detail">
+                        <span class="label">Skills</span>
+                        <span class="value">JavaScript, Java, HTML, CSS</span>
+                        <div class="input-group">
+                            <input type="text" class="form-control" value="JavaScript, Python, HTML, CSS">
+                        </div>
+                    </div>
+
+                    <div class="detail">
+                        <span class="label">Hobbies</span>
+                        <span class="value">Reading, Coding, Travelling</span>
+                        <div class="input-group">
+                            <input type="text" class="form-control" value="Reading, Coding, Travelling">
+                        </div>
+                    </div>
+
+                    <!-- Edit button -->
+                    <div class="edit-button">
+                        <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEditMode()">
+                            <i class="fas fa-edit"></i> Edit
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/MyProfile.js"></script>
+</body>
+</html>
